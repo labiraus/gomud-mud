@@ -5,7 +5,7 @@ import (
 	"log"
 	"strings"
 
-	"./pkg/world"
+	"pkg/world"
 	"github.com/labiraus/gomud-common/core"
 )
 

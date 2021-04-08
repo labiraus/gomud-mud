@@ -6,7 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"./pkg/world"
+	"pkg/world"
+
 	"github.com/labiraus/gomud-common/core"
 )
 

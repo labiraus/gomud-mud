@@ -6,9 +6,10 @@ import (
 	"os"
 	"os/signal"
 
-	"./pkg/game"
-	"github.com/labiraus/gomud-common/api"
+	"pkg/game"
+
 	"github.com/labiraus/gomud-common/db"
+	"github.com/labiraus/gomud-mud/pkg/handler"
 
 	_ "github.com/denisenkom/go-mssqldb"
 )

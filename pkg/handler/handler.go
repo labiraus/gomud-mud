@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"./pkg/game"
+	"pkg/game"
 
 	"github.com/gorilla/websocket"
 )

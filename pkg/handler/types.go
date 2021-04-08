@@ -1,9 +1,9 @@
-package api
+package handler
 
 import (
 	"context"
 
-	"./pkg/game"
+	"pkg/game"
 )
 
 type userChan struct {
