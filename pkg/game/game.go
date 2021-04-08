@@ -5,14 +5,16 @@ import (
 	"log"
 	"strings"
 
-	"pkg/world"
+	"github.com/labiraus/gomud-mud/pkg/world"
+
 	"github.com/labiraus/gomud-common/core"
 )
 
 //Game represents all logged in users
 type Game struct {
 	Users chan<- *User
-	Ctx   context.Context 	
+	Ctx   context.Context
+}
 
 type listUpdate struct {
 	u   *User

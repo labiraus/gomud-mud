@@ -9,8 +9,8 @@ github.com/jinzhu/inflection v1.0.0/go.mod h1:h+uFLlag+Qp1Va5pdKtLDYj+kHp5pxUVkr
 github.com/jinzhu/now v1.1.1/go.mod h1:d3SSVoowX0Lcu0IBviAWJpolVfI5UJVZZ7cO71lE/z8=
 github.com/jinzhu/now v1.1.2 h1:eVKgfIdy9b6zbWBMgFpfDPoAMifwSZagU9HmEU6zgiI=
 github.com/jinzhu/now v1.1.2/go.mod h1:d3SSVoowX0Lcu0IBviAWJpolVfI5UJVZZ7cO71lE/z8=
-github.com/labiraus/gomud-common v0.0.0-20210408163631-800879e1cdb1 h1:V8ZsWstv8dfNeuxIw4DQuITSGpnRasmvMUMIAc/Qyhw=
-github.com/labiraus/gomud-common v0.0.0-20210408163631-800879e1cdb1/go.mod h1:KC9CfVtIuezE4GAEgAMHSYMYeNSnNjz1trrICb3xJtA=
+github.com/labiraus/gomud-common v0.0.0-20210408164641-1790141956a3 h1:WxYeM1HNSy5bObtgp4b31LUk+A38qytwv5qO7bSGIW4=
+github.com/labiraus/gomud-common v0.0.0-20210408164641-1790141956a3/go.mod h1:KC9CfVtIuezE4GAEgAMHSYMYeNSnNjz1trrICb3xJtA=
 golang.org/x/crypto v0.0.0-20190325154230-a5d413f7728c/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2 h1:It14KIkyBFYkHkwZ7k45minvA9aorojkyjGk9KJ5B/w=
 golang.org/x/crypto v0.0.0-20210322153248-0c34fe9e7dc2/go.mod h1:T9bdIzuCu7OtxOm1hfPfRQxPLYneinmdGuTeoZ9dtd4=

@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	"pkg/game"
+	"github.com/labiraus/gomud-mud/pkg/game"
 
 	"github.com/labiraus/gomud-common/db"
 	"github.com/labiraus/gomud-mud/pkg/handler"

@@ -3,7 +3,7 @@ package handler
 import (
 	"context"
 
-	"pkg/game"
+	"github.com/labiraus/gomud-mud/pkg/game"
 )
 
 type userChan struct {
