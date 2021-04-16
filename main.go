@@ -7,11 +7,9 @@ import (
 	"os/signal"
 
 	"github.com/labiraus/gomud-mud/pkg/game"
-
-	"github.com/labiraus/gomud-common/db"
 	"github.com/labiraus/gomud-mud/pkg/handler"
 
-	_ "github.com/denisenkom/go-mssqldb"
+	"github.com/labiraus/gomud-common/db"
 )
 
 // This example demonstrates a trivial echo server.

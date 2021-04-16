@@ -6,9 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/labiraus/gomud-mud/pkg/world"
-
 	"github.com/labiraus/gomud-common/core"
+	"github.com/labiraus/gomud-mud/pkg/world"
 )
 
 //User is a single person logged in
@@ -74,7 +73,7 @@ func (u *User) Location() core.Location {
 
 func (u *User) start(add func(*User)) error {
 	success := false
-	for success == false {
+	for !success {
 		u.Send("Do you have an account? Y/n/q")
 		command, err := u.readBlank()
 		if err != nil {
