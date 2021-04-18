@@ -6,15 +6,14 @@ import (
 	"os"
 	"os/signal"
 
+	"github.com/labiraus/gomud-common/db"
 	"github.com/labiraus/gomud-mud/pkg/game"
 	"github.com/labiraus/gomud-mud/pkg/handler"
-
-	"github.com/labiraus/gomud-common/db"
 )
 
 // This example demonstrates a trivial echo server.
 func main() {
-	fmt.Println("hi")
+	fmt.Println("mud starting")
 	ctx, ctxDone := context.WithCancel(context.Background())
 	defer ctxDone()
 	db.Setup(ctx)
