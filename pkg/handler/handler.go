@@ -16,7 +16,7 @@ var upgrader = websocket.Upgrader{
 
 // Start begins the api
 func Start(g *game.Game) {
-	http.HandleFunc("/game", userChan{
+	http.HandleFunc("/", userChan{
 		userConnections: g.Users,
 		ctx:             g.Ctx,
 	}.gameHandler)

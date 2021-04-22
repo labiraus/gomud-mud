@@ -35,6 +35,9 @@ RUN go mod verify
 # Copy source code from local directories
 COPY . .
 
+# Run unit tests before building
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go test . ./...
+
 # Build the binary
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build \
     -ldflags='-w -s -extldflags "-static"' -a \
